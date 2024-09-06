@@ -11,7 +11,9 @@ body {
 
 }
 
-ul {margin: 0px;}
+ul {margin: 0px;
+    list-style: none;
+}
 
 body > header {
     background-color: lightblue;
@@ -19,12 +21,14 @@ body > header {
     display: flex;
     align-items:center ;
     justify-content: space-around;
+    list-style: none;
 
 }
 
-body > header > nav > ul > {
+body > header > nav > ul > a {
     list-style: none;
     text-decoration: none;
+
 }
 
 .navbutton {
@@ -39,23 +43,53 @@ body > header > nav > ul > {
 body > main article {
     width: 70%;
     margin: auto;
+    color: teal;
 }
 
 #main-content {
     display: flex;
     justify-content: space-around;
+    color: teal;
 }
 
 #main-content > div {
     width: 70%;
 }
 
+#Best {
+    padding: 15px;
+    color: white;
+    background-color: lightblue;
+}
+
 form {
     text-align: center;
+    margin: 1px;
+    color: teal;
+    outline-color: teal;
 }
 
 h2 {
     text-align: center;
+    color: lightblue;
+}
+
+#Second-Article-Title {
+    padding: 0px;
+    text-align: left;
+}
+
+#Article-1-date {
+    padding-bottom: 8%;
+}
+
+#author-name {
+    text-align: left;
+    padding-top: 3%;
+}
+
+#soft-hair-quote {
+    padding-left: 40px;
 }
 
 #Top-Links {
@@ -65,23 +99,29 @@ h2 {
 
 #Top-Links > ul {
     padding: 12px;
-    margin: 16px;
+}
+
+#top-links > ul > li {
     list-style: none;
+    padding: 5px;
 }
 
 body > footer {
     background-color: lightblue;
     display: flex;
+    color: white;
+    padding: 10px;
 }
 
 
-img {
-    border-radius: 10%;
+#last-tip {
+    padding-bottom: 15px;
 }
 
 #footer-ul {
     display: flex;
     list-style: none;
+    padding: 10px;
 }
 
 #footer-ul > div > li {
@@ -91,4 +131,5 @@ img {
 #footer-ul > div > li > a {
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
